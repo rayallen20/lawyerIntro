@@ -1,0 +1,425 @@
+/* header部分开始 */
+.header {
+    width: 100%;
+    height: 100px;
+}
+
+.header .wrapper {
+    height: 100px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo部分 */
+.header .logo {
+    width: 305px;
+}
+
+.header .logo a {
+    display: block;
+    height: 90px;
+    background: url("../img/logo.png") no-repeat;
+    text-indent: -9999em;
+    overflow: hidden;
+}
+
+/* 导航部分 */
+.header .nav {
+    height: 100%;
+}
+
+.header .nav ul {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav ul li {
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    text-align: center;
+    background: rgba(220, 109, 47, 1);
+    transition: all 0.3s;
+}
+
+.header .nav ul li a {
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.header .nav ul li:nth-child(1) {
+    border-radius: 15px 0 0 15px;
+}
+
+.header .nav ul li:nth-child(3) {
+    border-radius: 0 15px 15px 0;
+}
+
+.header .nav ul li:hover {
+    background: rgba(220, 109, 47, 0.7);
+    line-height: 45px;
+}
+
+.header .nav ul li:hover a {
+    color: #333333;
+}
+
+/* 用户信息部分 */
+.header .user {
+    height: 100%;
+    padding: 30px 10px;
+}
+
+.header .user img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.header .user span {
+    font-size: 14px;
+    color: #666666;
+}
+/* header部分结束 */
+
+/* office-intro部分开始 */
+.office-intro {
+    width: 100%;
+    background: linear-gradient(#fff -6.2%, #f1c3aa 31.34%, #dc6d2f 116.63%);
+}
+
+.office-intro .wrapper {
+    height: 100%;
+    display: flex;
+}
+
+/* 左侧宣传部分 */
+.office-intro .intro-left {
+    width: 54%;
+    padding: 0 60px 0 20px;
+}
+
+.office-intro .intro-left h2 {
+    color: #262626;
+    margin-bottom: 55px;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.office-intro .intro-left p {
+    color: #484848;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.office-intro .intro-left .button-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.office-intro .intro-left .button-container .primary {
+    display: block;
+    width: 138px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 600;
+    background: #ffc23e;
+    border: 1px solid #ffc23e;
+    border-radius: 6px;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+.office-intro .intro-left .button-container .primary:hover {
+    background: #f4a700;
+    border: 1px solid #f4a700;
+}
+
+.office-intro .intro-left .button-container .sub {
+    display: block;
+    width: 138px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid #ffdf98;
+    border-radius: 6px;
+    color: #ffdf98;
+    transition: all 0.3s;
+}
+
+.office-intro .intro-left .button-container .sub:hover {
+    background: #ffc23e;
+    border: 1px solid #ffc23e;
+    color: #ffffff;
+}
+
+/* 右侧图片部分 */
+.office-intro .intro-right {
+    width: 46%;
+}
+
+.office-intro .intro-right img {
+    width: 100%;
+    height: auto;
+}
+/* office-intro部分结束 */
+
+/* lawyer-intro部分开始 */
+.lawyer-intro {
+    width: 100%;
+    height: 1000px;
+}
+
+.lawyer-intro .hd {
+    padding: 40px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lawyer-intro .hd h2 {
+    flex: 1;
+    font-size: 30px;
+}
+
+.lawyer-intro .hd ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lawyer-intro .hd ul li {
+    margin-right: 12px;
+}
+
+.lawyer-intro .hd ul li a {
+    padding: 0 5px;
+    color: #333333;
+    transition: all 0.3s;
+}
+
+.lawyer-intro .hd ul li a:hover {
+    background: rgba(220, 109, 47, 1);
+    color: #ffffff;
+}
+
+.lawyer-intro .hd .all {
+    font-size: 16px;
+    color: #a1a1a1;
+    transition: all 0.3s;
+}
+
+.lawyer-intro .hd .all:hover {
+    color: rgba(220, 109, 47, 1);
+}
+
+.lawyer-intro .bd ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.lawyer-intro .bd ul li {
+    width: 242px;
+    height: 404px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.lawyer-intro .bd ul li:hover {
+    border-color: #f4a700;
+}
+
+.lawyer-intro .bd ul li:hover .introduction {
+    bottom: 0;
+}
+
+.lawyer-intro .bd ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.lawyer-intro .bd ul li a .pic {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 14px;
+}
+
+.lawyer-intro .bd ul li a .pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.lawyer-intro .bd ul li a .info {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.lawyer-intro .bd ul li a .info h5 {
+    font-size: 16px;
+}
+
+.lawyer-intro .bd ul li a .phone {
+    font-size: 16px;
+    color: #AF2F22;
+}
+
+.lawyer-intro .bd ul li .introduction {
+    position: absolute;
+    bottom: -100px;
+    width: 242px;
+    height: 100px;
+    padding: 30px 15px;
+    text-align: center;
+    background: rgba(220, 109, 47, 1);
+    color: #ffffff;
+    transition: all 0.3s;
+}
+/* lawyer-intro部分结束 */
+
+/* case部分开始 */
+.case {
+    width: 100%;
+}
+
+.case .hd {
+    padding: 40px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.case .hd h2 {
+    flex: 1;
+    font-size: 30px;
+}
+
+.case .hd a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    width: 128px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 4px;
+    background: linear-gradient(225deg, #ff5912 0%, #ff922e 100%);
+    display: inline-block;
+}
+
+.case .hd a .icon-arrow-right {
+    font-size: 14px;
+}
+
+.case .bd ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.case .bd ul li {
+    width: 380px;
+    height: 140px;
+    margin: 18px 0 0 18px;
+    border-radius: 6px;
+    padding: 24px 15px 0;
+}
+
+.case .bd ul li .ask {
+    width: 100%;
+    height: 58px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.case .bd ul li .ask .question {
+    width: 24px;
+    height: 24px;
+    background: url("../img/ask-answer.png") left top/100% no-repeat;
+    margin: 3px 8px 0 0;
+}
+
+.case .bd ul li .ask a {
+    flex: 1;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #111111;
+    transition: all 0.3s;
+}
+
+.case .bd ul li .ask a:hover {
+    color: #dc6d2f;
+}
+
+.case .bd ul li .answer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 24px;
+}
+
+.case .bd ul li .answer .avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.case .bd ul li .answer .avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.case .bd ul li .answer .answer-layer a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #666;
+    transition: all 0.3s;
+}
+
+.case .bd ul li .answer .answer-layer a:hover {
+    color: #dc6d2f;
+}
+
+.case .bd ul li .answer .all-answer {
+    flex: 1;
+    text-align: right;
+}
+
+.case .bd ul li .answer .all-answer a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    line-height: 18px;
+    transition: all 0.3s;
+}
+
+.case .bd ul li .answer .all-answer a:hover {
+    color: #dc6d2f;
+}
+
+.case .bd ul li .answer .all-answer a .icon-arrow-right {
+    font-size: 14px;
+}
+/* case部分结束 */

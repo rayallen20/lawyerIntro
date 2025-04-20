@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4899736 */
+  src: url('iconfont.woff2?t=1745152154213') format('woff2'),
+       url('iconfont.woff?t=1745152154213') format('woff'),
+       url('iconfont.ttf?t=1745152154213') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone1:before {
+  content: "\e9a9";
+}
+
+.icon-folder:before {
+  content: "\e667";
+}
+
+.icon-lawyer:before {
+  content: "\e6f1";
+}
+
+.icon-lawyer1:before {
+  content: "\e82b";
+}
+
+.icon-arrowleft:before {
+  content: "\e693";
+}
+
+.icon-arrow-right:before {
+  content: "\e665";
+}
+
